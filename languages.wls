@@ -29,4 +29,4 @@ langs = StringDrop[yml[[programmingLangPositions]], -1]
 Do[Print[x], {x, langs}]
 
 (* Maybe, CloudDeploy is not allowed in Wolfram script. *)
-(* CloudDeploy[APIFunction[{}, langs &]] *)
+(* CloudDeploy[APIFunction[{}, langs &, "JSON"]] *)

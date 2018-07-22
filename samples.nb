@@ -18,7 +18,7 @@ CellGroupData[{Cell[
 BoxData[
 RowBox[{"files"," ","="," ",RowBox[{"Flatten","[",RowBox[{"Import","["," ",RowBox[
 {"zip",","," ","\"FileNames\""}],"]"}],"]"}]}]],"Input",ExpressionUUID->"31f505b2-4b4e-4e1b-87cf-966b8fc66763",
-CellLabel->"In[5]:= "],Cell[
+CellLabel->"In[3]:= "],Cell[
 BoxData[InterpretationBox[TagBox[FrameBox[GridBox[{{ItemBox[
 TagBox[RowBox[{"{",RowBox[{"\"linguist-master/.gitattributes\"",",","\"linguist-master/.github/ISSUE_TEMPLATE.md\"",",","\"linguist-master/.github/PULL_REQUEST_TEMPLATE.md\"",",",TemplateBox[
 {"2498"},"OutputSizeLimit`Skeleton"],",","\"linguist-master/vendor/licenses/grammar/xml.tmbundle.txt\"",",","\"linguist-master/vendor/licenses/grammar/zephir-sublime.txt\""}],"}"}],
@@ -35,7 +35,7 @@ StripOnInput->False],True->StyleBox[StyleBox[DynamicBox[ToBoxes[FEPrivate`FrontE
 "FEStrings","sizeShowLess"],StandardForm]],DynamicUpdating->True,StripOnInput->False],
 "OSLControlActive",StripOnInput->False]},Dynamic[CurrentValue["MouseOver"]],ImageSize->{Automatic,25},
 Alignment->Center,ImageSize->Automatic,FrameMargins->0],RuleDelayed[ButtonFunction,
-OutputSizeLimit`ButtonFunction[OutputSizeLimit`Defer,5,16771409322845478636,Times[
+OutputSizeLimit`ButtonFunction[OutputSizeLimit`Defer,3,16771438628113563412,Times[
 5,Power[2,-1]]]],Appearance->None,Enabled->True,BaselinePosition->Baseline,Method->"Queued",
 Evaluator->Automatic],ButtonBox[PaneSelectorBox[{False->StyleBox[StyleBox[DynamicBox[
 ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeShowMore"],StandardForm]],DynamicUpdating->True,
@@ -43,8 +43,8 @@ StripOnInput->False],"OSLControl",StripOnInput->False],True->StyleBox[StyleBox[D
 ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeShowMore"],StandardForm]],DynamicUpdating->True,
 StripOnInput->False],"OSLControlActive",StripOnInput->False]},Dynamic[CurrentValue[
 "MouseOver"]],ImageSize->{Automatic,25},Alignment->Center,ImageSize->Automatic,FrameMargins->0],
-RuleDelayed[ButtonFunction,OutputSizeLimit`ButtonFunction[OutputSizeLimit`Defer,5,
-16771409322845478636,Times[5,2]]],Appearance->None,Enabled->True,BaselinePosition->Baseline,
+RuleDelayed[ButtonFunction,OutputSizeLimit`ButtonFunction[OutputSizeLimit`Defer,3,
+16771438628113563412,Times[5,2]]],Appearance->None,Enabled->True,BaselinePosition->Baseline,
 Method->"Queued",Evaluator->Automatic],ButtonBox[PaneSelectorBox[{False->StyleBox[
 StyleBox[DynamicBox[ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeShowAll"],
 StandardForm]],DynamicUpdating->True,StripOnInput->False],"OSLControl",StripOnInput->False],True->StyleBox[
@@ -52,7 +52,7 @@ StyleBox[DynamicBox[ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeShowAll"
 StandardForm]],DynamicUpdating->True,StripOnInput->False],"OSLControlActive",StripOnInput->False]},
 Dynamic[CurrentValue["MouseOver"]],ImageSize->{Automatic,25},Alignment->Center,ImageSize->Automatic,
 FrameMargins->0],RuleDelayed[ButtonFunction,OutputSizeLimit`ButtonFunction[OutputSizeLimit`Defer,
-5,16771409322845478636,Infinity]],Appearance->None,Enabled->True,BaselinePosition->Baseline,
+3,16771438628113563412,Infinity]],Appearance->None,Enabled->True,BaselinePosition->Baseline,
 Method->"Queued",Evaluator->Automatic],ButtonBox[PaneSelectorBox[{False->StyleBox[
 StyleBox[DynamicBox[ToBoxes[FEPrivate`FrontEndResource["FEStrings","sizeChangeLimit"],
 StandardForm]],DynamicUpdating->True,StripOnInput->False],"OSLControl",StripOnInput->False],True->StyleBox[
@@ -68,140 +68,141 @@ FrameStyle->GrayLevel[0.85]]}},GridBoxAlignment->{"Columns"->{{Left}}},DefaultBa
 GridBoxItemSize->{"Columns"->{{Automatic}},"Rows"->{{Automatic}}},ColumnWidths->Automatic,
 ColumnAlignments->Left,RowLines->False,RowSpacings->{3,1}],BaseStyle->"OutputSizeLimit",
 FrameMargins->{{12,12},{0,15}},FrameStyle->GrayLevel[0.85],RoundingRadius->5,StripOnInput->False],
-Deploy,DefaultBaseStyle->"Deploy"],If[SameQ[16771409322845478636,$SessionID],Out[
-5],CompoundExpression[Message[MessageName[Syntax,"noinfoker"]],Missing["NotAvailable"],
-Null]]],StandardForm],"Output",ExpressionUUID->"39f53d57-4204-4d61-9995-bc5daf2c924c",
-CellLabel->"Out[5]= "]},Open],ExpressionUUID->"ecdcf1ad-0049-4d34-8a83-1e38470d1b48"],Cell[
+Deploy,DefaultBaseStyle->"Deploy"],If[SameQ[16771438628113563412,$SessionID],Out[
+3],CompoundExpression[Message[MessageName[Syntax,"noinfoker"]],Missing["NotAvailable"],
+Null]]],StandardForm],"Output",ExpressionUUID->"52d377ff-ee76-4dce-b573-a124d6fb2230",
+CellLabel->"Out[3]= "]},Open],ExpressionUUID->"cbf6a2f8-b5d0-43b7-a870-3d0058de25a6"],Cell[
 TextData[
 {"Get"," ","samples","."}],"Text",ExpressionUUID->"c91bb020-2e46-46dd-ac2c-03f1097b683e"],Cell[
 BoxData[
 RowBox[{RowBox[{"getSamples","[","x_","]"}]," ",":="," ",RowBox[{"Select","[",RowBox[
 {"files",","," ",RowBox[{RowBox[{"StringMatchQ","[",RowBox[{"#",","," ",RowBox[{"\"linguist-master/samples/\""," ","~~"," ","x"," ","~~"," ","\"/\""," ","~~"," ","__"}]}],"]"}]," ","&"}]}],"]"}]," "}]],
-"Input",ExpressionUUID->"5e943969-bb33-4594-bce6-e7095acfefdc",CellLabel->"In[3]:= "],Cell[
+"Input",ExpressionUUID->"5e943969-bb33-4594-bce6-e7095acfefdc",CellLabel->"In[4]:= "],Cell[
 TextData[
 {"Deploy"," ","as"," ","Web"," ","API","."}],"Text",ExpressionUUID->"7823a250-e1f5-4285-9a88-afea7fd0b63d"],Cell[
 BoxData[
 RowBox[{"(*"," ",RowBox[{"CloudDeploy","[",RowBox[{"APIFunction","[",RowBox[{RowBox[
-{"{",RowBox[{"\"name\""," ","->"," ","\"String\""}],"}"}],","," ",RowBox[{RowBox[
-{"getSamples"," ","[","#name","]"}]," ","&"}]}],"]"}],"]"}]," ","*)"}]],"Input",ExpressionUUID->"cdf86060-0c2e-4628-9516-632bed7606ca",
-CellLabel->"In[4]:= "],Cell[
-CellGroupData[{Cell[
-BoxData[RowBox[{"Do","[",RowBox[
-{RowBox[{"Print","[","x","]"}],","," ",RowBox[{"{",RowBox[{"x",","," ",RowBox[{"getSamples","[","\"C\"","]"}]}],"}"}]}],"]"}]],
+{"{",RowBox[{"\"name\""," ","\[Rule]"," ","\"String\""}],"}"}],","," ",RowBox[{RowBox[
+{"getSamples"," ","[","#name","]"}]," ","&"}],","," ","\"JSON\""}],"]"}],"]"}]," ","*)"}]],
+"Input",ExpressionUUID->"cdf86060-0c2e-4628-9516-632bed7606ca",CellLabel->"In[5]:= "],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Do","[",RowBox[{RowBox[{"Print","[","x","]"}],","," ",RowBox[
+{"{",RowBox[{"x",","," ",RowBox[{"getSamples","[","\"C\"","]"}]}],"}"}]}],"]"}]],
 "Input",ExpressionUUID->"3f5674ed-60c9-4275-bfb9-5eac4aab035c",CellLabel->"In[6]:= "],Cell[
 BoxData[
-"\"linguist-master/samples/C/2D.C\"",StandardForm],"Print",ExpressionUUID->"738ff013-7947-47b5-8b87-67c051145864"],Cell[
+"\"linguist-master/samples/C/2D.C\"",StandardForm],"Print",ExpressionUUID->"3abb5287-e0bd-460a-b38b-6071471e9233"],Cell[
 BoxData[
-"\"linguist-master/samples/C/2D.H\"",StandardForm],"Print",ExpressionUUID->"a227451d-9d7d-4d4e-833b-fd9128569975"],Cell[
+"\"linguist-master/samples/C/2D.H\"",StandardForm],"Print",ExpressionUUID->"a9cf0a13-dd11-4cb3-aad3-f812c049dcc4"],Cell[
 BoxData[
-"\"linguist-master/samples/C/Arduino.cats\"",StandardForm],"Print",ExpressionUUID->"0e4a2f53-f173-4c5a-9a1f-ab42d9eee465"],Cell[
+"\"linguist-master/samples/C/Arduino.cats\"",StandardForm],"Print",ExpressionUUID->"4f11bd95-1f6f-479a-9f05-14bac7047221"],Cell[
 BoxData[
-"\"linguist-master/samples/C/ArrowLeft.h\"",StandardForm],"Print",ExpressionUUID->"3fef2cf5-57b5-4d9d-9364-11e95d5d839e"],Cell[
+"\"linguist-master/samples/C/ArrowLeft.h\"",StandardForm],"Print",ExpressionUUID->"f5408c50-8c52-4a00-a309-3f56a701d301"],Cell[
 BoxData[
-"\"linguist-master/samples/C/GLKMatrix4.h\"",StandardForm],"Print",ExpressionUUID->"94e89edd-ecc8-413a-9adf-fc61ae74e7c4"],Cell[
+"\"linguist-master/samples/C/GLKMatrix4.h\"",StandardForm],"Print",ExpressionUUID->"f29156cd-2f7d-48ee-a467-5a36e591c003"],Cell[
 BoxData[
-"\"linguist-master/samples/C/NWMan.h\"",StandardForm],"Print",ExpressionUUID->"fb9e9230-8a34-4f0e-a90b-43fcc1e76847"],Cell[
+"\"linguist-master/samples/C/NWMan.h\"",StandardForm],"Print",ExpressionUUID->"5c563875-319b-4924-8833-9100f117d66b"],Cell[
 BoxData[
-"\"linguist-master/samples/C/Nightmare.h\"",StandardForm],"Print",ExpressionUUID->"da7af7b4-1355-4137-80e4-13a5052b9bc7"],Cell[
+"\"linguist-master/samples/C/Nightmare.h\"",StandardForm],"Print",ExpressionUUID->"2402360c-ccaf-4f5d-a6d5-3ae1cdcae53e"],Cell[
 BoxData[
-"\"linguist-master/samples/C/array.c\"",StandardForm],"Print",ExpressionUUID->"729494e5-1dad-41e7-b7d8-8e1f2875007f"],Cell[
+"\"linguist-master/samples/C/array.c\"",StandardForm],"Print",ExpressionUUID->"90759f2c-9aa9-4982-a338-dcaac6d4729d"],Cell[
 BoxData[
-"\"linguist-master/samples/C/array.h\"",StandardForm],"Print",ExpressionUUID->"585bbaf6-60b6-407c-b86f-1f1baf412ed4"],Cell[
+"\"linguist-master/samples/C/array.h\"",StandardForm],"Print",ExpressionUUID->"73dfbcd0-0e20-4f8a-a3eb-658fc46045e9"],Cell[
 BoxData[
-"\"linguist-master/samples/C/asm.h\"",StandardForm],"Print",ExpressionUUID->"ba4084f9-65ed-4df6-b1f3-78be487609df"],Cell[
+"\"linguist-master/samples/C/asm.h\"",StandardForm],"Print",ExpressionUUID->"19b83fa2-81fc-4ec1-a168-34069b5fe01c"],Cell[
 BoxData[
-"\"linguist-master/samples/C/bitmap.h\"",StandardForm],"Print",ExpressionUUID->"ef0fbe38-12e6-4c30-8423-2c6ba36061a9"],Cell[
+"\"linguist-master/samples/C/bitmap.h\"",StandardForm],"Print",ExpressionUUID->"c2d6d5f6-46d5-4bc6-98b7-5155e3d5097e"],Cell[
 BoxData[
-"\"linguist-master/samples/C/blob.c\"",StandardForm],"Print",ExpressionUUID->"2b2a50e6-b1db-432c-853d-c6e2f60c7c14"],Cell[
+"\"linguist-master/samples/C/blob.c\"",StandardForm],"Print",ExpressionUUID->"484ce8d6-067f-4e7b-9a05-513d6ec73da4"],Cell[
 BoxData[
-"\"linguist-master/samples/C/blob.h\"",StandardForm],"Print",ExpressionUUID->"135559ea-60b3-4501-a15a-1e43439f25d8"],Cell[
+"\"linguist-master/samples/C/blob.h\"",StandardForm],"Print",ExpressionUUID->"8f78f550-67ea-4ca5-8622-39b9f49e6031"],Cell[
 BoxData[
-"\"linguist-master/samples/C/bootstrap.h\"",StandardForm],"Print",ExpressionUUID->"a8a6a74e-eb94-430c-85b9-06e871c52ca7"],Cell[
+"\"linguist-master/samples/C/bootstrap.h\"",StandardForm],"Print",ExpressionUUID->"55154a5d-c925-4676-bc83-4d88d97296f7"],Cell[
 BoxData[
-"\"linguist-master/samples/C/color.h\"",StandardForm],"Print",ExpressionUUID->"77e115cb-30c2-4156-bf92-1418d1b03eb2"],Cell[
+"\"linguist-master/samples/C/color.h\"",StandardForm],"Print",ExpressionUUID->"81d43b5a-d597-4c46-bb66-05b7f831d6f9"],Cell[
 BoxData[
-"\"linguist-master/samples/C/commit.c\"",StandardForm],"Print",ExpressionUUID->"600dae89-fc4e-4a3d-9523-bc45aa73a5e8"],Cell[
+"\"linguist-master/samples/C/commit.c\"",StandardForm],"Print",ExpressionUUID->"e6845cb5-90d0-4389-99a9-f54eae4eb7e8"],Cell[
 BoxData[
-"\"linguist-master/samples/C/commit.h\"",StandardForm],"Print",ExpressionUUID->"b9bb1319-2062-4830-958c-f3c17a7e0f8c"],Cell[
+"\"linguist-master/samples/C/commit.h\"",StandardForm],"Print",ExpressionUUID->"907da020-7924-452e-8dd7-c59877f5ed7a"],Cell[
 BoxData[
-"\"linguist-master/samples/C/cpuid.h\"",StandardForm],"Print",ExpressionUUID->"e8640d20-1548-41ad-b4db-52318ef57b9b"],Cell[
+"\"linguist-master/samples/C/cpuid.h\"",StandardForm],"Print",ExpressionUUID->"1504e773-48f5-41ea-8a61-460fbc62b66b"],Cell[
 BoxData[
-"\"linguist-master/samples/C/custom_extensions.c\"",StandardForm],"Print",ExpressionUUID->"d245107d-8cb6-4536-bcf7-4e4cc927349c"],Cell[
+"\"linguist-master/samples/C/custom_extensions.c\"",StandardForm],"Print",ExpressionUUID->"b4ff8708-94c5-471b-8817-4b63ed640341"],Cell[
 BoxData[
-"\"linguist-master/samples/C/driver.h\"",StandardForm],"Print",ExpressionUUID->"914db3ab-8695-4155-a067-8876ccdf4097"],Cell[
+"\"linguist-master/samples/C/driver.h\"",StandardForm],"Print",ExpressionUUID->"db6affa8-1eca-49af-87ff-061e8393dd10"],Cell[
 BoxData[
-"\"linguist-master/samples/C/elf.h\"",StandardForm],"Print",ExpressionUUID->"9418035b-cd70-452b-8776-76157e894364"],Cell[
+"\"linguist-master/samples/C/elf.h\"",StandardForm],"Print",ExpressionUUID->"9d9a6724-bf2e-4600-92b5-a522efd1c51e"],Cell[
 BoxData[
-"\"linguist-master/samples/C/exception.zep.c\"",StandardForm],"Print",ExpressionUUID->"8f0f88de-a08f-4bc7-9512-39abd3270982"],Cell[
+"\"linguist-master/samples/C/exception.zep.c\"",StandardForm],"Print",ExpressionUUID->"af26c519-8321-4607-8afd-e5085f29aab1"],Cell[
 BoxData[
-"\"linguist-master/samples/C/exception.zep.h\"",StandardForm],"Print",ExpressionUUID->"051d90c7-7e68-4576-8403-a5d96314eaa6"],Cell[
+"\"linguist-master/samples/C/exception.zep.h\"",StandardForm],"Print",ExpressionUUID->"0313188e-f346-4508-b6a9-f245fdb7672c"],Cell[
 BoxData[
-"\"linguist-master/samples/C/filter.h\"",StandardForm],"Print",ExpressionUUID->"a9d58443-0c79-4feb-8685-8b9597971ac3"],Cell[
+"\"linguist-master/samples/C/filter.h\"",StandardForm],"Print",ExpressionUUID->"68656b2d-b707-42bd-a07f-e41ff3ad0418"],Cell[
 BoxData[
-"\"linguist-master/samples/C/fudge_node.c\"",StandardForm],"Print",ExpressionUUID->"e0b4d16e-5076-4932-bed3-4232a38caa2b"],Cell[
+"\"linguist-master/samples/C/fudge_node.c\"",StandardForm],"Print",ExpressionUUID->"9feea0d0-3684-40aa-b3e5-09c6e5c3923f"],Cell[
 BoxData[
-"\"linguist-master/samples/C/git.c\"",StandardForm],"Print",ExpressionUUID->"cd036733-4b96-4432-b25d-34b926124814"],Cell[
+"\"linguist-master/samples/C/git.c\"",StandardForm],"Print",ExpressionUUID->"f8e7a079-9679-4151-99ab-2bb24135edeb"],Cell[
 BoxData[
-"\"linguist-master/samples/C/hello.c\"",StandardForm],"Print",ExpressionUUID->"0ba2be13-03ca-4de4-acd6-450e3691eba3"],Cell[
+"\"linguist-master/samples/C/hello.c\"",StandardForm],"Print",ExpressionUUID->"1fb94fd9-48ed-431e-8f96-ed74d50b5d28"],Cell[
 BoxData[
-"\"linguist-master/samples/C/hello.h\"",StandardForm],"Print",ExpressionUUID->"f0f7ca66-748b-44a3-9a6f-982039e2a170"],Cell[
+"\"linguist-master/samples/C/hello.h\"",StandardForm],"Print",ExpressionUUID->"7a759db4-b2a9-4a82-b44a-83a095d7710e"],Cell[
 BoxData[
-"\"linguist-master/samples/C/http_parser.c\"",StandardForm],"Print",ExpressionUUID->"44e1b82a-565a-4686-95bf-68fa274a590e"],Cell[
+"\"linguist-master/samples/C/http_parser.c\"",StandardForm],"Print",ExpressionUUID->"a95684d1-203c-4e15-8903-36b60a61c75d"],Cell[
 BoxData[
-"\"linguist-master/samples/C/http_parser.h\"",StandardForm],"Print",ExpressionUUID->"863cdf9c-1261-4f22-905c-845ffcc53036"],Cell[
+"\"linguist-master/samples/C/http_parser.h\"",StandardForm],"Print",ExpressionUUID->"bd9c9c03-b238-4514-83ca-838002e85b09"],Cell[
 BoxData[
-"\"linguist-master/samples/C/info.h\"",StandardForm],"Print",ExpressionUUID->"133abebe-56c3-4c0d-9f5b-a7b7269fa835"],Cell[
+"\"linguist-master/samples/C/info.h\"",StandardForm],"Print",ExpressionUUID->"44912c7a-6162-4150-826c-58715e3da733"],Cell[
 BoxData[
-"\"linguist-master/samples/C/interface.h\"",StandardForm],"Print",ExpressionUUID->"078fda6c-bfaa-4a8e-adcb-190a761e411d"],Cell[
+"\"linguist-master/samples/C/interface.h\"",StandardForm],"Print",ExpressionUUID->"3ff1d55c-5b08-4abc-ac22-72f0dc4a1bbb"],Cell[
 BoxData[
-"\"linguist-master/samples/C/ip4.h\"",StandardForm],"Print",ExpressionUUID->"839e5af7-df5d-45a1-a092-dad8c98b313b"],Cell[
+"\"linguist-master/samples/C/ip4.h\"",StandardForm],"Print",ExpressionUUID->"42b6d35a-2cb9-49f0-aca3-94cd2dcc4077"],Cell[
 BoxData[
-"\"linguist-master/samples/C/jni_layer.h\"",StandardForm],"Print",ExpressionUUID->"901e9986-7ff7-4458-9a37-9395c2da8323"],Cell[
+"\"linguist-master/samples/C/jni_layer.h\"",StandardForm],"Print",ExpressionUUID->"d978c784-9795-469d-ba23-bb826b78ed59"],Cell[
 BoxData[
-"\"linguist-master/samples/C/main.c\"",StandardForm],"Print",ExpressionUUID->"9cc95556-62e3-4bed-8ecb-538e3fa3bb3f"],Cell[
+"\"linguist-master/samples/C/main.c\"",StandardForm],"Print",ExpressionUUID->"8e80c049-40ef-463f-ab15-ad5660ac00e5"],Cell[
 BoxData[
-"\"linguist-master/samples/C/markdown.c\"",StandardForm],"Print",ExpressionUUID->"25e95b17-18fc-485c-ad31-6c725e3123a9"],Cell[
+"\"linguist-master/samples/C/markdown.c\"",StandardForm],"Print",ExpressionUUID->"c3489d67-148f-4790-9ae4-8ccf27991af7"],Cell[
 BoxData[
-"\"linguist-master/samples/C/multiboot.h\"",StandardForm],"Print",ExpressionUUID->"fd5f1c32-13e6-4abc-a8d3-2a718b812d92"],Cell[
+"\"linguist-master/samples/C/multiboot.h\"",StandardForm],"Print",ExpressionUUID->"38222ab5-a101-46da-85c2-a6cf55b6937d"],Cell[
 BoxData[
-"\"linguist-master/samples/C/ntru_encrypt.h\"",StandardForm],"Print",ExpressionUUID->"386b72ed-e8ca-432c-8031-0ae63b45fbca"],Cell[
+"\"linguist-master/samples/C/ntru_encrypt.h\"",StandardForm],"Print",ExpressionUUID->"2a3227d8-d3e8-4934-a111-e38deaefb370"],Cell[
 BoxData[
-"\"linguist-master/samples/C/portio.h\"",StandardForm],"Print",ExpressionUUID->"fefe1d2e-6b73-4e8a-a586-9df21478083a"],Cell[
+"\"linguist-master/samples/C/portio.h\"",StandardForm],"Print",ExpressionUUID->"8c65ec99-0355-4a68-9d59-81fc9711786d"],Cell[
 BoxData[
-"\"linguist-master/samples/C/pqiv.h\"",StandardForm],"Print",ExpressionUUID->"a162efb2-2045-4d5f-8313-11bab96b2a1a"],Cell[
+"\"linguist-master/samples/C/pqiv.h\"",StandardForm],"Print",ExpressionUUID->"a7afd2ca-6b2c-407a-8925-a06cf04a3d11"],Cell[
 BoxData[
-"\"linguist-master/samples/C/process.c\"",StandardForm],"Print",ExpressionUUID->"29d21b78-ad9d-4079-a77c-59705c81d69a"],Cell[
+"\"linguist-master/samples/C/process.c\"",StandardForm],"Print",ExpressionUUID->"d23dd506-b7cb-4d6c-a140-215545dc93f1"],Cell[
 BoxData[
-"\"linguist-master/samples/C/rdiscount.c\"",StandardForm],"Print",ExpressionUUID->"864b0482-b1b2-42d3-840d-1b16686c017b"],Cell[
+"\"linguist-master/samples/C/rdiscount.c\"",StandardForm],"Print",ExpressionUUID->"159a304b-5888-439d-a0ce-dbfad2fc3fcf"],Cell[
 BoxData[
-"\"linguist-master/samples/C/readline.cats\"",StandardForm],"Print",ExpressionUUID->"5012ad55-ac0d-4f6c-8da4-a04e71672edd"],Cell[
+"\"linguist-master/samples/C/readline.cats\"",StandardForm],"Print",ExpressionUUID->"623b8b88-2f3f-4889-a364-ab8ad75bde86"],Cell[
 BoxData[
-"\"linguist-master/samples/C/redis.c\"",StandardForm],"Print",ExpressionUUID->"22e6789f-4035-44af-8769-0e53eb61159e"],Cell[
+"\"linguist-master/samples/C/redis.c\"",StandardForm],"Print",ExpressionUUID->"648e70ae-297b-432b-af76-f5c48c74979c"],Cell[
 BoxData[
-"\"linguist-master/samples/C/rf_io.c\"",StandardForm],"Print",ExpressionUUID->"9e648729-1b88-43b5-bf4e-1f1a388e624d"],Cell[
+"\"linguist-master/samples/C/rf_io.c\"",StandardForm],"Print",ExpressionUUID->"504aacf1-38d1-4b7a-bbb7-b7d30e839fe0"],Cell[
 BoxData[
-"\"linguist-master/samples/C/rf_io.h\"",StandardForm],"Print",ExpressionUUID->"8eaaf08f-98ce-4059-b719-0f9f6ce8bf0f"],Cell[
+"\"linguist-master/samples/C/rf_io.h\"",StandardForm],"Print",ExpressionUUID->"8e3dad92-72bf-44ba-b882-6e7b46b12704"],Cell[
 BoxData[
-"\"linguist-master/samples/C/rfc_string.c\"",StandardForm],"Print",ExpressionUUID->"b4d20496-8f5c-4012-ba85-e18ab5a423c8"],Cell[
+"\"linguist-master/samples/C/rfc_string.c\"",StandardForm],"Print",ExpressionUUID->"f7e6aacd-d156-4483-b454-85018deec87d"],Cell[
 BoxData[
-"\"linguist-master/samples/C/rfc_string.h\"",StandardForm],"Print",ExpressionUUID->"fd42c993-fd67-472c-8076-4afb5aac3324"],Cell[
+"\"linguist-master/samples/C/rfc_string.h\"",StandardForm],"Print",ExpressionUUID->"a94b9d8f-ec93-4d5a-abc9-e71f0c4ea9e1"],Cell[
 BoxData[
-"\"linguist-master/samples/C/scheduler.h\"",StandardForm],"Print",ExpressionUUID->"326ea3b3-1d6c-4b5f-b0c6-97efa8d5ab21"],Cell[
+"\"linguist-master/samples/C/scheduler.h\"",StandardForm],"Print",ExpressionUUID->"615c0440-9683-4dc4-90be-f6c2b1f3f53e"],Cell[
 BoxData[
-"\"linguist-master/samples/C/script\"",StandardForm],"Print",ExpressionUUID->"44d2136f-5986-4515-9554-5b0e398012ff"],Cell[
+"\"linguist-master/samples/C/script\"",StandardForm],"Print",ExpressionUUID->"4175ebbc-dcf9-4640-91cd-5ef0905429a2"],Cell[
 BoxData[
-"\"linguist-master/samples/C/sgd_fast.c\"",StandardForm],"Print",ExpressionUUID->"3161a794-81f8-4294-af53-684f4d72614c"],Cell[
+"\"linguist-master/samples/C/sgd_fast.c\"",StandardForm],"Print",ExpressionUUID->"4b2e30af-f97e-4380-b5aa-2b44a68c9ef0"],Cell[
 BoxData[
-"\"linguist-master/samples/C/syscalldefs.h\"",StandardForm],"Print",ExpressionUUID->"1ab3aadf-1fed-43b6-925b-b0d782de175e"],Cell[
+"\"linguist-master/samples/C/syscalldefs.h\"",StandardForm],"Print",ExpressionUUID->"c4480357-3d3c-4c6a-aed0-38ef569f31f6"],Cell[
 BoxData[
-"\"linguist-master/samples/C/syscalls.h\"",StandardForm],"Print",ExpressionUUID->"533966ea-4251-4e5f-9411-86990777affc"],Cell[
+"\"linguist-master/samples/C/syscalls.h\"",StandardForm],"Print",ExpressionUUID->"f11d0d2d-a138-4bc2-ba3f-9faa221f4e75"],Cell[
 BoxData[
-"\"linguist-master/samples/C/vfs.h\"",StandardForm],"Print",ExpressionUUID->"542eab4a-c7a5-49b7-b078-1b5337787abc"],Cell[
+"\"linguist-master/samples/C/vfs.h\"",StandardForm],"Print",ExpressionUUID->"ccc0a9c1-c176-4e09-837e-8b349fbd0768"],Cell[
 BoxData[
-"\"linguist-master/samples/C/vmem.h\"",StandardForm],"Print",ExpressionUUID->"e60da8e3-d8af-45a2-a32e-2380e256e3d7"],Cell[
+"\"linguist-master/samples/C/vmem.h\"",StandardForm],"Print",ExpressionUUID->"ef7e713b-8bcd-4402-83cb-57f689823422"],Cell[
 BoxData[
-"\"linguist-master/samples/C/wglew.h\"",StandardForm],"Print",ExpressionUUID->"f8545a09-e163-45b6-b4ea-104d196298c0"],Cell[
+"\"linguist-master/samples/C/wglew.h\"",StandardForm],"Print",ExpressionUUID->"95c5bfb3-708a-4120-977b-05fc576c2f3f"],Cell[
 BoxData[
-"\"linguist-master/samples/C/yajl.c\"",StandardForm],"Print",ExpressionUUID->"57c4e3ac-104e-498b-863f-899df6d1d650"]},
-Open],ExpressionUUID->"855af539-8be3-4053-923b-6df69b601da9"]},Open],ExpressionUUID->"54c4c2cc-c3cc-4e76-9146-bdaa667ed46b"]},
+"\"linguist-master/samples/C/yajl.c\"",StandardForm],"Print",ExpressionUUID->"faab3965-3f08-49c7-ac29-d4fec0298895"]},
+Open],ExpressionUUID->"f6eaa952-096c-4a85-aec0-562d04cd4c7a"]},Open],ExpressionUUID->"54c4c2cc-c3cc-4e76-9146-bdaa667ed46b"]},
 StyleDefinitions->"Default.nb",FrontEndVersion->"11.3 for Wolfram Cloud 1.46.1 (May 21, 2018)"]

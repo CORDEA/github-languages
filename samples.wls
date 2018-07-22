@@ -25,4 +25,4 @@ getSamples[x_] := Select[files, StringMatchQ[#, "linguist-master/samples/" ~~ x 
 Do[Print[x], {x, getSamples["C"]}]
 
 (* Maybe, CloudDeploy is not allowed in Wolfram script. *)
-(* CloudDeploy[APIFunction[{"name" -> "String"}, getSamples [#name] &]] *)
+(* CloudDeploy[APIFunction[{"name" -> "String"}, getSamples [#name] &, "JSON"]] *)
